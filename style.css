@@ -5,6 +5,11 @@ body {
     font-family: 'Open Sans' Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    color: #555;
+}
+
+h1,h2 {
+    color: #111;
 }
 
 .topbar {
@@ -18,5 +23,36 @@ body {
 }
 
 .conteiner {
-    
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+}
+
+.headline {
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.subtitulo {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.autor {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+
+.social-icons {
+    width: 20px;
+    padding: 10px 10px 10px 0px;
+}
+
+a {
+    text-decoration: none;
 }
